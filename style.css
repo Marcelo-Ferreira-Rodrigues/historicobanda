@@ -1,0 +1,54 @@
+@keyframes animacao{
+
+	0% {background-color: hwb(25, 31, 119); }
+	50% {background-color: rgb(15, 69, 150); }
+	100% {background-color: rgb(1, 1, 17); }
+}
+
+p2{
+	
+	color: #13fcfc;
+	font-style: oblique;
+	font-family: sans-serif;
+
+	}	
+
+h2 {
+font-family: Chiller;
+color: rgb(245, 248, 241);
+text-shadow: 3px 3px 3px rgb(104, 100, 100);
+   	}
+
+h3{
+	font-family:'Arial Narrow';
+	color: #ffffff;
+	
+}
+
+h4{
+		color: rgb(12, 212, 219);
+  }
+
+p{
+	text-align: justify-all;
+	font-family: verdana;
+	color: rgb(250, 252, 252);
+}
+
+Body{
+
+	background-color: rgb(14, 67, 241);
+	animation-name: animacao;
+	animation-duration: 10s;
+	animation-delay: 6s;
+	animation-iteration-count: infinite;
+}
+img{
+	width="auto"; 
+	height="auto";
+}
+
+a{
+	color: aliceblue;
+}
+
