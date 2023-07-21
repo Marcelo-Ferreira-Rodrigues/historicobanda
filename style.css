@@ -1,3 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
 @keyframes animacao{
 
 	0% {background-color: hwb(25, 31, 119); }
