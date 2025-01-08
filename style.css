@@ -1,60 +1,111 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	}
 
-@keyframes animacao{
-
-	0% {background-color: hwb(25, 31, 119); }
-	50% {background-color: rgb(15, 69, 150); }
-	100% {background-color: rgb(1, 1, 17); }
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
 }
 
-p2{
-	
-	color: #13fcfc;
-	font-style: oblique;
-	font-family: sans-serif;
-
-	}	
-
-h2 {
-font-family: Chiller;
-color: rgb(245, 248, 241);
-text-shadow: 3px 3px 3px rgb(104, 100, 100);
-   	}
-
-h3{
-	font-family:'Arial Narrow';
-	color: #ffffff;
-	
+/* Cabeçalho e Navegação */
+header {
+  background-color: #4b0082;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
-h4{
-		color: rgb(12, 212, 219);
+nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+nav button {
+  background-color: #800080;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #4b0082;
+}
+
+/* Imagem principal */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Seções */
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2, h3 {
+  color: #4b0082;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  main {
+	padding: 10px;
   }
 
-p{
-	text-align: justify-all;
-	font-family: verdana;
-	color: rgb(250, 252, 252);
+  nav button {
+	font-size: 14px;
+	padding: 8px 16px;
+  }
 }
-
-Body{
-
-	background-color: rgb(14, 67, 241);
-	animation-name: animacao;
-	animation-duration: 10s;
-	animation-delay: 6s;
-	animation-iteration-count: infinite;
-}
-img{
-	width="auto"; 
-	height="auto";
-}
-
-a{
-	color: aliceblue;
-}
-
